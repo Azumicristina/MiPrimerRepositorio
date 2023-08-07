@@ -1,0 +1,81 @@
+P
+{display: inline-flexbox;text-align: center;color: black;font-family:'Arial'; font-size:26px;}
+.a1
+{display: inline-flexbox;text-align: center;color:#0000ff; font-family:'Arial'; font-size:14px;}
+.parrafo1-titulo
+{color:#ff0000; display: inline-flexbox;text-align: left;font-family:'Arial'; font-size:16px;}
+.texto1
+{color:black; font-family:'Arial'; font-size:15px;}
+.texto1-titulo1
+{color: #b45f06; display: inline-flexbox;text-align: left;font-family:'Arial'; font-size:16px;}
+.parrafo2-titulo
+{color: #0000ff; display: inline-flexbox;text-align: left;font-family:'Arial'; font-size:15px;}
+.footer
+{color:white ;background:#045484; padding:  3rem 0; text-align: left; margin-top: 6rem;}
+.myButton {
+    box-shadow:inset 0px 1px 0px 0px #ff9900ff;
+    background:linear-gradient(to bottom, #ff9900ff 5%, #ff9900ff 100%);
+    background-color:#ff9900ff;
+    border-radius:6px;
+    border:1px solid #ff9900ff;
+    display:inline-block;
+    cursor:pointer;
+    color:rgb(0,0,0);
+    font-family:Arial;
+    font-size:15px;
+    padding:6px 24px;
+    text-decoration:none;
+    }
+.myButton:hover {
+	background:linear-gradient(to bottom, #ff9900ff 5%,#ff9900ff 100%);
+	background-color:#ff9900ff ;
+    }
+.myButton:active {
+	position:relative;
+	top:1px;
+    }
+.container {
+    height: 100%;
+    width: 100%;
+}
+.imagenes
+    {width: 100%; height: 400px; overflow: hidden;text-align: center;}
+.header{
+    color:black; padding: 0.5px; overflow: hidden;}
+.Google_maps{
+    text-align: center;
+}
+.main-grupo{
+    display: flex; margin: 0;
+    padding-top: 80px;
+}
+.grupo{
+    flex-grow: 1;
+    margin-top: 8px;
+ }
+ #contenido {
+    width: 92%;
+    height: 400px;
+    padding: 0px;
+    /*border: 5px solid gray;*/
+    margin: 0;
+    text-align: center; 
+    }
+.Logoprincipal{
+    background: url(imagenes/Logo.png)no-repeat ; background-size: 300px ;}
+
+.col-md-8 {
+    width: 70%;
+}
+.col-md-4 {
+    width: 20%;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.a-rigth {
+    text-align: right;
+}
